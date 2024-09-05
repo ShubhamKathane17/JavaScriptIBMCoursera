@@ -48,3 +48,22 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+// Function to check access based on role
+let role = "employee";
+switch (role) {
+    case 'employee':
+        console.log("As an Employee, you have full access to Dietary Services.");
+        break;
+    case 'enrolled member':
+        console.log("As an Enrolled Member, you have access to Dietary Services and one-on-one interaction with a dietician.");
+        break;
+    case 'subscriber':
+        console.log("As a Subscriber, you have partial access to Dietary Services.");
+        break;
+    case 'non-subscriber':
+        console.log("As a Non-Subscriber, you need to enroll or subscribe to avail the Dietary Services.");
+        break;
+    default:
+        console.log("Invalid role! Please check your input.");
+}
