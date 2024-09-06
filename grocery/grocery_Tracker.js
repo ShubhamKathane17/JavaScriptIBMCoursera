@@ -8,5 +8,5 @@ function groceryTracker(){
     g3 = parseFloat(document.getElementById('grocery3').value);
 
     let totalAmount = g1 + g2 + g3;
-    document.getElementById('result').innerText = `The total amount is:$ ${area}`;
+    document.getElementById('result').innerText = `The total amount is:$ ${totalAmount}`;
 }
