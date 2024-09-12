@@ -7,9 +7,14 @@ function performOperation() {
     if (!isNaN(num1) && !isNaN(num2)) {
         // Perform the operation
         let result = multiply(num1, num2);
+        // let result = add(num1, num2);
+        // let result = subtract(num1, num2);
+        // let result = divide(num1, num2);
+
 
         // Display the result
         displayResult(result);
+
     } else {
         displayResult('Please enter valid numbers');
     }
@@ -21,6 +26,30 @@ function multiply(a, b) {
 
     // Multiply the numbers
     return a * b;
+}
+
+function add(a, b) {
+    // Introduce a debugger statement to pause execution
+    debugger;
+
+    // Multiply the numbers
+    return a + b;
+}
+
+function subtract(a, b) {
+    // Introduce a debugger statement to pause execution
+    debugger;
+
+    // Multiply the numbers
+    return a - b;
+}
+
+function divide(a, b) {
+    // Introduce a debugger statement to pause execution
+    debugger;
+
+    // Multiply the numbers
+    return a / b;
 }
 
 function displayResult(result) {
