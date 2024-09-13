@@ -1,5 +1,6 @@
 var xhr = new XMLHttpRequest();
 var url = './health_article.json';
+var url2 = 
 
 xhr.open('GET', url, true);
 
